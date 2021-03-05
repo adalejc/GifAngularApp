@@ -1,0 +1,9 @@
+<div id="list" class=" ">
+  <button *ngFor="let item of historial"
+    (click)="buscar(item)"
+    href="#"
+    type="button" 
+    class="btn btn-outline-secondary btn-sm m-1">
+    {{item | titlecase}}
+</button>
+</div>

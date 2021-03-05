@@ -8,3 +8,17 @@ html, body {
   min-height: 100vh;
   min-width: 180px;
 }
+
+@media (max-width: 768px) {
+  #slider {
+    display: none;
+  }
+
+  
+ }
+
+ @media (min-width: 769px) {
+  #list {
+    display: none;
+  }
+ }

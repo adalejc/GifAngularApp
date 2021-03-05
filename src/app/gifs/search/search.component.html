@@ -1,4 +1,4 @@
-<h5>Buscar:</h5>
+<!-- <h5>Buscar:</h5>
 <input
   class="form-control" 
   type="text" 
@@ -6,4 +6,18 @@
   placeholder="Buscar gifs..."
   (keyup.enter)="search()"
   #txtBuscar
->
+> -->
+
+<h5>Gifs App:</h5>
+<div class="input-group mb-2">
+  <input 
+    type="text" 
+    class="form-control" 
+    placeholder="Buscar gifs..." 
+    (keyup.enter)="search()"
+    #txtBuscar>
+  <button 
+    class="btn btn-outline-primary" 
+    (click)="search()"
+  >Search</button>
+</div>
