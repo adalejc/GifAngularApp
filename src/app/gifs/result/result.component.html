@@ -3,9 +3,9 @@
     {{ gif.title }}
   </li>
 </ul> -->
-<div class="row">
+<div class="row align-items-center">
   <div *ngFor="let gif of resultados" 
-    class="col-md-4 col-sm-6 animate__animated animate__fadeInDown" >
+    class="col-lg-3 col-md-4 col-sm-6 p-2 animate__animated animate__fadeInDown" >
     <div class="card">
       <img [src]="gif.images.downsized_medium.url" 
             [alt]="gif.title"
